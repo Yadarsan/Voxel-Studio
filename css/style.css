@@ -918,6 +918,38 @@ h6 {
     color: #e1e1e1;
 }
 
+
+#services {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px; /* Adjust to match the gallery's width */
+    margin: 0 auto;
+}
+
+.service-block {
+    flex: 0 0 45%;
+    margin-bottom: 20px;
+}
+
+.service-block h3 {
+    color: #C5A344;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.service-block ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 0;
+}
+
 /*------------------------------------------------------------------------------------------*/
 /* 6. Landing Page Sections */
 /*------------------------------------------------------------------------------------------*/
